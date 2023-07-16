@@ -67,7 +67,7 @@ nav {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(/images/search-logo.svg);
+    background-image: url(images/search-logo.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -75,14 +75,14 @@ nav {
     display: inline-block;
     width: 18px;
     height: 18px;
-    background-image: url(/images/micro-logo.svg);
+    background-image: url(images/micro-logo.svg);
 }
 
 .camera-logo {
     display: inline-block;
     width: 18px;
     height: 18px;
-    background-image: url(/images/camera-logo.svg);
+    background-image: url(images/camera-logo.svg);
     background-size: cover;
 }
 
