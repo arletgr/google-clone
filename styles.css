@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+header {
+  height: 67px;
+}
+
+nav {
+  height: 47px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 8px 17px;
+}
+
+.container-image {
+  cursor: pointer;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.menu {
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.menu:hover {
+    background-color: rgb(239, 239, 239);
+}
+
+.links {
+  margin-right: 15px;
+  display: flex;
+  width: 130px;
+  justify-content: space-around;
+}
+
+.container-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+}
+
+.links a {
+  text-decoration: none;
+  font: 13px/27px Roboto,Arial,sans-serif;
+  color: black;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.search-logo {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/search-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.micro-logo {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(/images/micro-logo.svg);
+}
+
+.camera-logo {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(/images/camera-logo.svg);
+    background-size: cover;
+}
+
+main {
+    height: calc(100% - 60px - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+
+main .container figure{
+    height: 92px;
+}
+
+main .container figure img {
+    height: 100%;
+}
+
+main .container .searcher {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 30px;
+    width: 560px;
+    padding: 8px 12px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0)
+}
+
+main .container .searcher:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2)
+}
+
+main .container .searcher button {
+    border: none;
+    background-color: transparent;
+}
+
+main .container .searcher input {
+    width: 100%;
+    border: none;
+    background-color:transparent;
+    outline:none;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+
+main .container .searcher-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+main .container .searcher-buttons button{
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color:#202124;
+    cursor: pointer;
+    height: 36px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 16px;
+}
+
+main .container .searcher-buttons button:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddddde; 
+}
+
+.ofrecido {
+    font-size: small;
+    font-family: Arial,sans-serif; 
+    color:#4d5156;
+}
+ 
+.espanol {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.espanol:hover {
+    text-decoration: underline;
+}
+
+.mexico{
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+footer a {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    white-space: nowrap;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.more-info { 
+    padding: 0 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #f2f2f2;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .more-info{
+        justify-content: space-evenly;
+    }
+}
